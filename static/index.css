@@ -1,0 +1,67 @@
+/* General styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://images.creativemarket.com/0.1.0/ps/7353024/1820/965/m1/fpnw/wm1/ahp0l9ecx0vfwsdo1rwxcdtynfyzn4gweomwnblntp5glupfrmnapoab88tzxyjd-.jpg?1574572829&s=b8ffc3e573cf00451539ee4b954ba3c0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+}
+
+/* Centered heading */
+.heading {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Button container styles */
+button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.reg,
+.login {
+    text-align: center;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .heading {
+        font-size: 2rem;
+        margin-top: 15px;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+
+    .reg,
+    .login {
+        margin-top: 10px;
+    }
+}
+
